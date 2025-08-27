@@ -1,0 +1,36 @@
+# OS & editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+env/
+venv/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+.notebooks_cache/
+*.nbconvert.ipynb
+
+# Data
+data/*
+!data/README.md
+
+# Outputs
+*.log
+*.tmp
+*.cache/
+outputs/
+models/
+artifacts/
+
+# Lock files (optional)
+# requirements-lock.txt

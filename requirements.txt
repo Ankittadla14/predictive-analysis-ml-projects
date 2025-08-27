@@ -1,0 +1,11 @@
+# Core
+numpy
+pandas
+scikit-learn
+matplotlib
+jupyter
+
+# Optional (uncomment if you use them)
+# seaborn
+# xgboost
+# ipywidgets
