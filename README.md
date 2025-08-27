@@ -46,7 +46,7 @@ The goal is to highlight best practices in preparing real-world datasets, compar
   ```bash
   df = pd.read_csv("data/car_data.csv")
   ```
-- Keep large/original files outside Git and update paths in the notebooks accordingly.
+- ⚠️ Keep large/original files outside Git and update paths in the notebooks accordingly.
 
 ---
 
