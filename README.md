@@ -18,8 +18,10 @@ The goal is to highlight best practices in preparing real-world datasets, compar
 │   ├── 01_data_preprocessing.ipynb    # Data cleaning, encoding, scaling
 │   ├── 02_classification_knn.ipynb    # KNN classifier for categorical targets
 │   └── 03_regression_models.ipynb     # Linear, KNN, and MLP regression
-├── data/
-│   └── README.md                      # Placeholder (store small samples only)
+├── datasets/
+│   └── Airfares_unprocessed.csv       # 01_dataset
+│   └── ToyotaCorolla.csv              # 02_dataset
+│   └── UniversalBank.csv              # 03_dataset
 ├── requirements.txt                   # Python dependencies
 ├── .gitignore                         # Ignore large/unnecessary files
 └── README.md                          # Project documentation
