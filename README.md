@@ -33,20 +33,20 @@ The goal is to highlight best practices in preparing real-world datasets, compar
 - Coursework datasets (e.g., **Car attributes, Pricing, Fuel Type**).  
 - Full datasets are not committed to GitHub due to size restrictions.  
 ### How to Set Up:  
-#### 1. Create a data/ folder in the repo root:
+#### 1. Create a datasets/ folder in the repo root:
   ```bash
-  mkdir -p data
+  mkdir -p datasets
   ```
-#### 2. Place the dataset files inside ./data/ .
+#### 2. Place the dataset files inside ./datasets/ .
 - For example:
   ```bash
-  ./data/car_data.csv
-  ./data/price_data.csv
+  ./datasets/car_data.csv
+  ./datasets/price_data.csv
   ```
 #### 3. Update the dataset path in the notebooks if needed.
 - Example:
   ```bash
-  df = pd.read_csv("data/car_data.csv")
+  df = pd.read_csv("datasets/car_data.csv")
   ```
 - ⚠️ Keep large/original files outside Git and update paths in the notebooks accordingly.
 
