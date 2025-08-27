@@ -29,8 +29,8 @@ The goal is to highlight best practices in preparing real-world datasets, compar
 
 ## 3. Datasets
 - Coursework datasets (e.g., **Car attributes, Pricing, Fuel Type**).  
-- Not committed in full due to size restrictions.  
-- To run:
+- Full datasets are not committed to GitHub due to size restrictions.  
+  To run:
   ```
   mkdir -p data
   # Place your dataset files in ./data/
